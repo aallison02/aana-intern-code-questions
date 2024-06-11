@@ -4,3 +4,23 @@
 ```
 # Write pseudocode solution here
 ```
+
+function is_palindrome(string):
+    filtered_string = ''
+
+    for char in string:
+        if char is alphanumeric
+            append to filtered_string
+    
+    left_ptr = 0
+    right_ptr = filtered_string.length() - 1
+
+    while left_ptr < right_ptr:
+        if filtered_string[left_ptr] != filtered_string[right_ptr]:
+            return False
+        else:
+            left_ptr += 1
+            right_ptr -= 1
+    
+    return true
+
